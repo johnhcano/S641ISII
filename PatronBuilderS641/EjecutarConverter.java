@@ -9,7 +9,7 @@ public class EjecutarConverter {
         //Creación de los objetos de tipo Lector
         Reader objLector1 = new Reader("LINE", objASCII);
         Reader objLector2 = new Reader("TABLE", objPDF);
-        Reader objLector3 = new Reader("PARAGRAPH", objPostScript);
+        Reader objLector3 = new Reader("LINE", objPostScript);
 
         objLector1.parseInput();
         objLector2.parseInput();
