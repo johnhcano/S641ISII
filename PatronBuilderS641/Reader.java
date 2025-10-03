@@ -16,7 +16,7 @@ public class Reader {
             case "LINE":
                 converter.makeLine();
                 break;
-            case "PRAGRAPH":
+            case "PARAGRAPH":
                 converter.makeParagraph();
                 break;
             case "TABLE":
